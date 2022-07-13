@@ -44,8 +44,12 @@ public class varify_login_Page extends BaseClass {  			// extends resources - ba
 	/* 1.soft assertion 
 	 * 2. hard assertion 
 	 * 
-	 * syntax of soft assertion 
-	 *  
+	 * syntax of hard assertion 
+	 *  String actualtext= driver.findElement(By.xpath("//div[@id='error']")).getText();			// to get alart massege using xpath of error 
+	
+		String expected= "Please check your username and password. If you still can't log in, contact your Salesforce administrator.";
+ 
+		Assert.assertEquals(actualtext, expected);
 	 * 
 	 */
 	Thread.sleep(3000);

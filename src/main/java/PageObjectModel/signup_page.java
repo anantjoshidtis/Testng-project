@@ -50,30 +50,30 @@ public class signup_page {
 		
 	}
  
-		public WebElement selectjobtitle () {		// 
+		public WebElement selectjobtitle () {		// select job tite 
 			
 			 return driver.findElement(jobTitle);
 		}
 	
 		 
-		public WebElement Select_compan_details() {
+		public WebElement Select_compan_details() {			// select company details
 			return driver.findElement(Select_company);
 	
 }
 
-		public WebElement Select_employee() {
+		public WebElement Select_employee() {				// select employee
 			return driver.findElement(Select_employee);
 			
 		}
 
 
-		public WebElement Select_Contact_number () {
+		public WebElement Select_Contact_number () {		// enter contact number 
 			
 			return driver.findElement(phone_number);
 			
 		}
 
-		public WebElement Select_Country() {
+		public WebElement Select_Country() {				// select country using locater 
 			return driver.findElement(Select_Country);
 			
 		}
