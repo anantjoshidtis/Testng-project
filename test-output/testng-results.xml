@@ -2,34 +2,38 @@
 <testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-07-11T07:05:55 IST" name="Default suite" finished-at="2022-07-11T07:06:21 IST" duration-ms="26176">
+  <suite started-at="2022-07-13T00:24:52 IST" name="Default suite" finished-at="2022-07-13T00:25:09 IST" duration-ms="17370">
     <groups>
     </groups>
-    <test started-at="2022-07-11T07:05:55 IST" name="Default test" finished-at="2022-07-11T07:06:21 IST" duration-ms="26176">
-      <class name="Testcases.Verify_signup">
-        <test-method signature="signup()[pri:0, instance:Testcases.Verify_signup@1aa7ecca]" started-at="2022-07-11T07:05:55 IST" name="signup" finished-at="2022-07-11T07:06:21 IST" duration-ms="26004" status="FAIL">
+    <test started-at="2022-07-13T00:24:52 IST" name="Default test" finished-at="2022-07-13T00:25:09 IST" duration-ms="17370">
+      <class name="Testcases.varify_login_Page">
+        <test-method is-config="true" signature="browserLaunch()[pri:0, instance:Testcases.varify_login_Page@6adbc9d]" started-at="2022-07-13T00:24:52 IST" name="browserLaunch" finished-at="2022-07-13T00:25:02 IST" duration-ms="10085" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserLaunch -->
+        <test-method signature="LogInVaification()[pri:0, instance:Testcases.varify_login_Page@6adbc9d]" started-at="2022-07-13T00:25:02 IST" name="LogInVaification" finished-at="2022-07-13T00:25:09 IST" duration-ms="6832" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//input[@name='UserFirstName']"}
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='error']"}
   (Session info: chrome=101.0.4951.54)
 For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
 Build info: version: '4.3.0', revision: 'a4995e2c09*'
-System info: host: 'DESKTOP-F459CM0', ip: '192.168.169.159', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'
+System info: host: 'DESKTOP-F459CM0', ip: '192.168.0.114', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [744b84d100da4fcf72e196302996b6e3, findElement {using=xpath, value=//input[@name='UserFirstName']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.54, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: C:\Users\3str\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:63288}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63288/devtoo..., se:cdpVersion: 101.0.4951.54, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 744b84d100da4fcf72e196302996b6e3]]>
+Command: [7601a0377618672c7cdda2494f875eac, findElement {using=xpath, value=//div[@id='error']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.54, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: C:\Users\3str\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:50306}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50306/devtoo..., se:cdpVersion: 101.0.4951.54, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 7601a0377618672c7cdda2494f875eac]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@name='UserFirstName']"}
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='error']"}
   (Session info: chrome=101.0.4951.54)
 For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
 Build info: version: '4.3.0', revision: 'a4995e2c09*'
-System info: host: 'DESKTOP-F459CM0', ip: '192.168.169.159', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'
+System info: host: 'DESKTOP-F459CM0', ip: '192.168.0.114', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [744b84d100da4fcf72e196302996b6e3, findElement {using=xpath, value=//input[@name='UserFirstName']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.54, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: C:\Users\3str\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:63288}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63288/devtoo..., se:cdpVersion: 101.0.4951.54, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 744b84d100da4fcf72e196302996b6e3
+Command: [7601a0377618672c7cdda2494f875eac, findElement {using=xpath, value=//div[@id='error']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.54, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: C:\Users\3str\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:50306}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50306/devtoo..., se:cdpVersion: 101.0.4951.54, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 7601a0377618672c7cdda2494f875eac
 at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
 at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
 at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
@@ -44,8 +48,7 @@ at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(Elemen
 at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:387)
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:379)
-at PageObjectModel.signup_page.firstname(signup_page.java:41)
-at Testcases.Verify_signup.signup(Verify_signup.java:27)
+at Testcases.varify_login_Page.LogInVaification(varify_login_Page.java:48)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 at java.base/java.lang.reflect.Method.invoke(Method.java:577)
 at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
@@ -77,8 +80,12 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- signup -->
-      </class> <!-- Testcases.Verify_signup -->
+        </test-method> <!-- LogInVaification -->
+        <test-method is-config="true" signature="Chromequit()[pri:0, instance:Testcases.varify_login_Page@6adbc9d]" started-at="2022-07-13T00:25:09 IST" name="Chromequit" finished-at="2022-07-13T00:25:09 IST" duration-ms="370" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Chromequit -->
+      </class> <!-- Testcases.varify_login_Page -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

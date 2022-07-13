@@ -13,9 +13,9 @@ import Resources.BaseClass;
 public class Verify_signup extends BaseClass {
 	@Test
 	public void signup() throws IOException, InterruptedException {
-		driverinitilization();
-		
-		driver.get("https://login.salesforce.com/?locale=in");			// login page link 
+//		driverinitilization();
+//		
+//		driver.get("https://login.salesforce.com/?locale=in");			// login page link 
 		
 		Login_Page lp=new Login_Page(driver);	
 		
